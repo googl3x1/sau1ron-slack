@@ -4,7 +4,7 @@ An autonomous Slack AI Agent built on the **OpenClaw** framework and powered by 
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Low-Latency Conversational Engine:** Optimized with `reasoning: false` to bypass intensive multi-step thinking delays, ensuring near-instantaneous Slack interactions.
 * **Open Access, Single Commander:** Configured with an open direct message policy (`dmPolicy: "open"`) allowing anyone in your workspace to chat with the agent, while strictly locking down internal operations and configuration triggers to your unique Slack Member ID.
@@ -13,7 +13,7 @@ An autonomous Slack AI Agent built on the **OpenClaw** framework and powered by 
 
 ---
 
-## 🛠️ System Architecture
+## System Architecture
 
 * **Core Gateway:** OpenClaw Engine (manages tool routing, channel communication, and socket listeners).
 * **LLM Backend:** DeepSeek V4 Flash (handles text parsing and function generation via an OpenAI-compliant API structure).
@@ -22,7 +22,7 @@ An autonomous Slack AI Agent built on the **OpenClaw** framework and powered by 
 
 ---
 
-## ⚙️ Configuration Blueprint (`openclaw.example.json`)
+## Configuration Blueprint (`agent.json`)
 
 Use this safe template to configure your deployment workspace. Copy this file into your active machine profile directory as `openclaw.json` and populate your secrets.
 
