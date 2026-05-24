@@ -1,0 +1,9 @@
+# Exclude sensitive keys and tokens
+openclaw.json
+.env
+*.log
+
+# Exclude local execution transcripts and dynamic data
+workspace/
+sessions.json
+transcripts/s
